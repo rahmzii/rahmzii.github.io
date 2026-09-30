@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #f8f9ff,
+        #eef3ff
+    );
+}
+.btn-primary {
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+.card-body {
+    padding: 25px;
+}
+@media (max-width: 768px) {
+
+    .hero {
+        min-height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+}
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+}
+.auth-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+.dashboard-sidebar {
+    min-height: 100vh;
+    background: #f8f9fa;
+}
+.dashboard-main {
+    min-height: 100vh;
+}
